@@ -14,6 +14,7 @@
 
 using System.Drawing;
 using System.Globalization;
+using System.Web.UI.DataVisualization.Charting;
 using System.Windows.Forms.DataVisualization.Charting.Utilities;
 
 namespace System.Windows.Forms.DataVisualization.Charting.ChartTypes

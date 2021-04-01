@@ -14,6 +14,7 @@ using System.ComponentModel.Design;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Printing;
+using System.Web.UI.DataVisualization.Charting;
 
 namespace System.Windows.Forms.DataVisualization.Charting
 {

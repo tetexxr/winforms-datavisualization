@@ -21,6 +21,7 @@
 using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
+using System.Web.UI.DataVisualization.Charting;
 
 namespace System.Windows.Forms.DataVisualization.Charting
 {

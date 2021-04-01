@@ -17,6 +17,7 @@ using System.Drawing;
 using System.Drawing.Design;
 using System.Reflection;
 using System.Resources;
+using System.Web.UI.DataVisualization.Charting;
 using System.Windows.Forms.Design.DataVisualization.Charting;
 
 namespace System.Windows.Forms.DataVisualization.Charting

@@ -18,7 +18,7 @@ using System.Diagnostics.CodeAnalysis;
 
 	using System.Windows.Forms.DataVisualization.Charting.Utilities;
     using System.Windows.Forms.DataVisualization.Charting;
-
+using System.Web.UI.DataVisualization.Charting;
 
 namespace System.Windows.Forms.DataVisualization.Charting
 {

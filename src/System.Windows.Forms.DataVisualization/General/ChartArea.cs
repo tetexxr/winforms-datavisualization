@@ -32,6 +32,7 @@ using System.ComponentModel.Design.Serialization;
 using System.Reflection;
 using System.Windows.Forms.Design;
 using System.Windows.Forms.Design.DataVisualization.Charting;
+using System.Web.UI.DataVisualization.Charting;
 
 namespace System.Windows.Forms.DataVisualization.Charting
 {

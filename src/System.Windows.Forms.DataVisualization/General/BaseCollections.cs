@@ -9,6 +9,7 @@ using System.Text;
 using System.Globalization;
 using System.Diagnostics.CodeAnalysis;
 using System.Collections;
+using System.Web.UI.DataVisualization.Charting;
 
 namespace System.Windows.Forms.DataVisualization.Charting
 {

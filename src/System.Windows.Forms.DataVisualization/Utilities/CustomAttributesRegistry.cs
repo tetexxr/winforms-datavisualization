@@ -37,6 +37,7 @@
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
+using System.Web.UI.DataVisualization.Charting;
 using System.Windows.Forms.DataVisualization.Charting.ChartTypes;
 
 namespace System.Windows.Forms.DataVisualization.Charting.Utilities

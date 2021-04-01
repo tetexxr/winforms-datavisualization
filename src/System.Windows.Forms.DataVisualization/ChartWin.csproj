@@ -1,12 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>System.Windows.Forms.DataVisualization</AssemblyName>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <CLSCompliant>false</CLSCompliant>
-    <NoWarn>$(NoWarn);618</NoWarn>
-    <DefineConstants>$(DefineConstants);WINFORMS_CONTROL</DefineConstants>
+    <!--<NoWarn>$(NoWarn);618</NoWarn>
+    <DefineConstants>$(DefineConstants);WINFORMS_CONTROL</DefineConstants>-->
     <!-- <Win32Manifest>Resources\System\Windows\Forms\XPThemes.manifest</Win32Manifest> -->
   </PropertyGroup>
 
@@ -16,11 +17,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="FastReport.Compat" Version="2021.1.5" />
+    
     <!-- Versions are defined in eng\Versions.props -->
-    <PackageReference Include="System.Data.SqlClient" Version="$(SystemDataSQLClientPackageVersion)" />
-    <PackageReference Include="System.Drawing.Common" Version="$(SystemDrawingCommonPackageVersion)" />
-    <PackageReference Include="System.Drawing.Primitives" Version="$(SystemDrawingPrimitivesPackageVersion)" />
-    <PackageReference Include="System.Windows.Extensions" Version="$(SystemWindowsExtensionsPackageVersion)" />
+    <!--<PackageReference Include="System.Data.SqlClient" Version="$(SystemDataSQLClientPackageVersion)" />-->
+    <!--<PackageReference Include="System.Drawing.Common" Version="$(SystemDrawingCommonPackageVersion)" />-->
+    <!--<PackageReference Include="System.Drawing.Primitives" Version="$(SystemDrawingPrimitivesPackageVersion)" />-->
+    <!--<PackageReference Include="System.Windows.Extensions" Version="$(SystemWindowsExtensionsPackageVersion)" />-->
   </ItemGroup>
 
   <ItemGroup Label="Embedded Resources">
@@ -31,6 +35,10 @@
       <GenerateSource>true</GenerateSource>
       <Namespace>System.Windows.Forms.DataVisualization.Charting</Namespace> <!-- I think you want System here -->
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.NETCore.Platforms" Version="5.0.1" />
   </ItemGroup>
 
   <!--<ItemGroup>

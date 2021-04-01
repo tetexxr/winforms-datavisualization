@@ -22,6 +22,7 @@ using System.Drawing;
 using System.Drawing.Design;
 using System.Globalization;
 using System.Text;
+using System.Web.UI.DataVisualization.Charting;
 using System.Windows.Forms.DataVisualization.Charting.Utilities;
 using System.Windows.Forms.Design.DataVisualization.Charting;
 

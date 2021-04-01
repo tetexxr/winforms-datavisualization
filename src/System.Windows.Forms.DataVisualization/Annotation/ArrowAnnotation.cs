@@ -23,6 +23,8 @@ using System.Windows.Forms.DataVisualization.Charting.Data;
 using System.Windows.Forms.DataVisualization.Charting.ChartTypes;
 using System.Windows.Forms.DataVisualization.Charting.Utilities;
 using System.Windows.Forms.DataVisualization.Charting.Borders3D;
+using System.Web.UI.DataVisualization.Charting;
+
 namespace System.Windows.Forms.DataVisualization.Charting
 {
 	#region Enumeration

@@ -13,6 +13,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Globalization;
 using System.Reflection;
+using System.Web.UI.DataVisualization.Charting;
 using System.Windows.Forms.DataVisualization.Charting.ChartTypes;
 using System.Windows.Forms.DataVisualization.Charting.Data;
 

@@ -18,6 +18,7 @@ using System.Net;
 using System.Reflection;
 using System.Resources;
 using System.Security;
+using System.Web.UI.DataVisualization.Charting;
 
 namespace System.Windows.Forms.DataVisualization.Charting.Utilities
 {

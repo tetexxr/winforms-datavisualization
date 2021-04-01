@@ -13,6 +13,7 @@ using System.Collections.Generic;
 namespace System.Windows.Forms.DataVisualization.Charting.Utilities
 {
     using System.Drawing;
+    using System.Web.UI.DataVisualization.Charting;
 
     internal class ChartAccessibleObject : Control.ControlAccessibleObject
     {

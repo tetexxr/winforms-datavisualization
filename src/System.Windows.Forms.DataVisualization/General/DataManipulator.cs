@@ -15,6 +15,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
+using System.Web.UI.DataVisualization.Charting;
 
 namespace System.Windows.Forms.DataVisualization.Charting
 {

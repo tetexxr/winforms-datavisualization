@@ -11,6 +11,7 @@
 
 using System.ComponentModel;
 using System.Drawing.Design;
+using System.Web.UI.DataVisualization.Charting;
 using System.Windows.Forms.DataVisualization.Charting;
 
 namespace System.Windows.Forms.Design.DataVisualization.Charting

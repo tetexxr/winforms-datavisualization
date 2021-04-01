@@ -14,6 +14,7 @@
 using System.ComponentModel;
 using System.ComponentModel.Design;
 using System.IO;
+using System.Web.UI.DataVisualization.Charting;
 using System.Windows.Forms.DataVisualization.Charting.Utilities;
 using System.Xml;
 
