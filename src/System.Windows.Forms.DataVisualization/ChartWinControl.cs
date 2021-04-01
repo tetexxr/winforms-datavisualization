@@ -88,7 +88,7 @@ namespace System.Windows.Forms.DataVisualization.Charting
     [ToolboxBitmap(typeof(Chart), "ChartControl.ico")]
 	[SRDescription("DescriptionAttributeChart_Chart")]
     [Designer(typeof(ChartWinDesigner))]
-	[DesignerSerializer(typeof(ChartWinDesignerSerializer), typeof(CodeDomSerializer))]
+	//[DesignerSerializer(typeof(ChartWinDesignerSerializer), typeof(CodeDomSerializer))]
 	[DisplayNameAttribute("Chart")]
     public class Chart : System.Windows.Forms.Control, ISupportInitialize, IDisposable
 	{
