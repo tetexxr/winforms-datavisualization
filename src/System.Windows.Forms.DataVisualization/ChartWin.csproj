@@ -15,19 +15,6 @@
 
   <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
-  </ItemGroup>
-
-  <ItemGroup Label="Embedded Resources">
-    <EmbeddedResource Update="Common\SR.resx">
-      <LogicalName>System.Windows.Forms.DataVisualization.Charting.SR.resources</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Update="SR.resx">
-      <GenerateSource>true</GenerateSource>
-      <Namespace>System.Windows.Forms.DataVisualization.Charting</Namespace>
-    </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Update="Microsoft.NETCore.Platforms" Version="5.0.1" />
   </ItemGroup>
 
